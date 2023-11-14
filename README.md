@@ -1,1 +1,1 @@
-# panda-commarce
+# e-com
