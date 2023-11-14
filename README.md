@@ -1,1 +1,1 @@
-# e-comarce
+# e-commerce
