@@ -65,3 +65,69 @@
 footer{
     text-align: center;
 }
+
+
+
+
+.login-container {
+    display: none;
+    position: absolute;
+    max-width: 300px;
+    top: 50px;
+    right: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .login-button {
+    cursor: pointer;
+  }
+  .b-login{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+  }
+
+
+  .registration-container {
+    display: none;
+    position: absolute;
+    max-width: 500px;
+    top: 50px;
+    right: 10px;
+    padding: 2px;
+    background-color: #fceae8 ;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .b-signup{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+  }
+
+  .login-container img{
+    height: 10px;
+    width: 25%;
+    float: left;
+    
+  }
+
+  .registration-container img{
+    height: 10px;
+    width: 20%;
+    float: left;
+    
+  }

@@ -20,6 +20,14 @@
             <a class="nav-item nav-link" href="#shoes">Shoes</a>
             <a class="nav-item nav-link" href="#backpack">Backpack</a>
             <a class="nav-item nav-link" href="#subscribe" >Subscribe</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Account
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item login-button" href="javascript:void(0);"  onclick="toggleLogin()" >Login</a>
+                <a class="dropdown-item" href="javascript:void(0);" onclick="toggleSignup()">SignUp</a>
+            </div></li>
 
             <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -29,34 +37,7 @@
         </div>
         </div>
       </nav>
-     <!-- <div class="container"><nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#shoes">Shoes</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#backpack">Backpack</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#subscribe">Subscribe</a>
-              </li>         
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav></div> -->
+
       <div class="container">
         <div id="carouselExampleIndicators" class="carousel slide orange-bg" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -117,63 +98,6 @@
       </div>
     </div>
 
-      <!-- <div class="container"><div id="carouselExampleIndicators" class="carousel slide orange-bg">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="row align-items-center">
-                <div class="col-md-7">
-                    <h1>X-Box for your living room</h1>
-                    <p>This is the best x-box in the world for people who just want to waste time in front of fake sports.</p>
-                    <h1 class="price">$600</h1>
-                    <button class="bye-now-button">Bye Now</button>
-                </div>
-                <div class="col-md-5">
-            <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
-        </div>
-          </div>
-        </div>
-          <div class="carousel-item">
-            <div class="row align-items-center">
-                <div class="col-md-7">
-                <h1>Mega LCD TV For Sports</h1>
-                <p>This is the best tv in the world for people who just want to waste time in front of tv.</p>
-                <h1 class="price">$1200</h1>
-                <button class="bye-now-button">Bye Now</button>
-                </div>
-                <div class="col-md-5">
-            <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
-        </div> 
-    </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row align-items-center">
-                <div class="col-md-7">
-                    <h1>Cool Dude Headphone</h1>
-                    <p>This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
-                    <h1 class="price">$420</h1>
-                    <button class="bye-now-button">Bye Now</button>
-                </div>
-                <div class="col-md-5">
-
-            <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
-        </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div></div> -->
-
      <div class="container categories">
         <div class="row d-flex align-items-center">
             <div class="col-md-4">
@@ -182,20 +106,23 @@
                 <img src="images/categories/watch.png" alt="">
             </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" >
                 <div class="cat2 d-flex justify-content-between align-items-center">
                 <h1>Bag</h1>
                 <img src="images/categories/bag.png" alt="">
             </div>
             </div>
+            
             <div class="col-md-4">
                 <div class="cat3 d-flex justify-content-between align-items-center">
                 <h1>Shoes</h1>
                 <img src="images/categories/shoes.png" alt="">
             </div>
             </div>
+          
         </div>
      </div>
+   
 
 
      <div class="container shoes" id="shoes">
@@ -282,9 +209,184 @@
         </div>
      </div>
 
+
+
+
+
+
+
+
+
+     <div class="login-container" id="loginContainer">
+      <img src="images/logo.png" alt=""> <br>
+      <h2>Login</h2>
+      <form onsubmit="return validateForm()">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+  
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+  
+        <input class="b-login" type="submit" value="Login">
+      </form>
+    </div>
+
+
+
+    <div class="registration-container" id="registrationContainer">
+      <img src="images/logo.png" alt=""><br>
+      <h2>SignUp</h2>
+      <form onsubmit="return validateForm()">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+  
+        <label for="username">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required><br><br>
+  
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+  
+        <label for="email">Address:</label>
+        <input type="email" id="address" name="address" required><br><br>
+  
+  
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+  
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required><br><br>
+  
+        <input class="b-signup" type="submit" value="SignUp">
+      </form>
+    </div>
+
+
+
+
+
+
+    <script>
+      function toggleSignup() {
+        var loginContainer = document.getElementById("registrationContainer");
+        if (loginContainer.style.display === "block") {
+          loginContainer.style.display = "none";
+        } else {
+          loginContainer.style.display = "block";
+        }
+      }
+
+
+      function toggleLogin() {
+        var loginContainer = document.getElementById("loginContainer");
+        if (loginContainer.style.display === "block") {
+          loginContainer.style.display = "none";
+        } else {
+          loginContainer.style.display = "block";
+        }
+      }
+
+
+
+
+      function validateForm() {
+      var username = document.getElementById("username").value;
+      var password = document.getElementById("password").value;
+
+      // Add your authentication logic here
+      // For simplicity, this example just checks if both fields are filled
+      if (username === "" || password === "") {
+        alert("Both username and password are required!");
+        return false;
+      }
+
+      // You can add more sophisticated validation and authentication logic as needed
+
+      return true; // Allow form submission
+    }
+
+
+    function validateForm() {
+      var username = document.getElementById("username").value;
+      var email = document.getElementById("email").value;
+      var password = document.getElementById("password").value;
+      var confirmPassword = document.getElementById("confirmPassword").value;
+
+      // Simple validation checks
+      if (username === "" || email === "" || password === "" || confirmPassword === "") {
+        alert("All fields are required!");
+        return false;
+      }
+
+      if (password !== confirmPassword) {
+        alert("Passwords do not match!");
+        return false;
+      }
+
+      // You can add more sophisticated validation as needed
+
+      return true; // Allow form submission
+    }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
      <footer>
         <h6> ©2023. Panda Commerce. All rights reserved. Jahid, Bangladesh. </h6>
      </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+
 
 
 
