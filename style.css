@@ -38,7 +38,9 @@
     background-color: lightblue;
 }
 
-
+.nam{
+    color:  #ff136f;
+}
 .categories h1{
     color: white;
 }
@@ -62,8 +64,10 @@
     height: 300px;
 }
 
-footer{
+.forth{
     text-align: center;
+    color: #ccc;
+    background-color: #282531 ;
 }
 
 
