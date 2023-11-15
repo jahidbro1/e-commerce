@@ -67,8 +67,6 @@ footer{
 }
 
 
-
-
 .login-container {
     display: none;
     position: absolute;
@@ -141,11 +139,6 @@ footer{
     cursor: pointer;
     float: right;
   }
-
-
-
-
-
 
   .popup {
     display: none;
