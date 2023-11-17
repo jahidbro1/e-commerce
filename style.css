@@ -175,3 +175,81 @@
     float: left;
     
   }
+
+
+
+
+
+  .checkout .form-control{
+    border-radius: 0px !important;
+}
+.checkout .form-control:focus{
+    border: 1px solid #000 !important;
+    box-shadow: none !important;
+}
+.checkout .nav-link{
+    border: 1px solid #000;
+    border-radius: 2px;
+    margin-bottom: 8px;
+}
+.checkout .tab-content{
+    padding-right: 10px;
+}
+.cart img{
+    height: 10px;
+    width: 9%;
+    float: right;
+    margin: 20px 20px;
+}
+
+.text-primary {
+    color: #FF136F !important;
+  }
+
+.paym{
+    background-color:#fceae8 ;
+}
+.btn-primary{
+    background-color:  #FF136F !important;
+}
+
+.about {
+    width: 500px;
+    margin: 0 auto; /* Center the card horizontally */
+  }
+  
+  .about-img-top {
+    width: 100%;
+    height: 300px;
+    object-fit: cover; /* Make the image cover the entire card */
+  }
+
+  .bg-dark{
+    width: 800px;
+    margin: 0 auto; /* Center the card horizontally */
+    object-fit: cover;
+
+  }
+
+  .forth a:link{
+    text-decoration: none;
+    color: white;
+    
+  }
+  .shc{
+    width: 900px;
+    margin: 0 auto; /* Center the card horizontally */
+    object-fit: cover;
+    display: flex;
+  }
+
+  .sho a:link{
+    text-decoration: none;
+    color: #000;
+  }
+
+  .shr{
+    width: 750px;
+    margin: 0 auto; /* Center the card horizontally */
+    display: flex;
+  }
