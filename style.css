@@ -243,7 +243,7 @@
     display: flex;
   }
 
-  .sho a:link{
+  .sho a{
     text-decoration: none;
     color: #000;
   }
